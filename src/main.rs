@@ -10,6 +10,7 @@ use grid::SudokuGrid;
 mod bitmanip;
 use bitmanip::BitManip;
 
+#[allow(unused_imports)]
 use std::convert::TryInto;
 use std::env;
 use std::fs;
